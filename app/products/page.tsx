@@ -1,9 +1,7 @@
 import type { Metadata } from "next"
 
 export const metadata: Metadata= {
-  title: {
-    absolute: "Product"
-  }
+  title: "Product"
 }
 
 export default function ProductPages(){
