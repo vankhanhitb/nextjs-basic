@@ -10,7 +10,9 @@ export default function Header(){
   const navLinks = [
     {name: "Home", href: "/"},
     {name: "Blog", href: "/blogs"},
-    {name: "Product", href: "/products"}
+    {name: "Product", href: "/products"},
+    {name: "Best Sale", href: "/products/best-sale"},
+    {name: "Order", href: "/orders"}
   ]
 
   return(
@@ -26,7 +28,7 @@ export default function Header(){
                     const isActive = pathName === link.href;
                     return(
                        <li key={link.href}>
-                        <Link href={link.href} className={isActive ? "text-blue-600 text-md uppercase" : "text-md uppercase" }>{link.name}</Link>
+                        <Link href={link.href} className={isActive ? "text-blue-600 text-sm uppercase" : "text-sm uppercase" }>{link.name}</Link>
                       </li>
                     )
                   })

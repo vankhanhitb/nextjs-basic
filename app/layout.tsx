@@ -4,6 +4,7 @@ import "./globals.css";
 
 import Header from './components/Header';
 import Footer from './components/Footer';
+import {ErrorWrapper} from './error-wrapper';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +37,9 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Header />
-        {children}
+          <ErrorWrapper>
+            {children}
+          </ErrorWrapper>
         <Footer />
       </body>
     </html>
