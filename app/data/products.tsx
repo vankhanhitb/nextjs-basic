@@ -58,5 +58,35 @@ export const products= [
         value: "Red, Blue, Green, Yallow, Pupple, Black"
       }
     ]
+  },
+  {
+    id: 1000005,
+    title: "Product title 5",
+    description: "Description for product 5",
+    variants: [
+      {
+        option: "Size",
+        value: "S, M, L, XL, XS"
+      },
+      {
+        options: "Color",
+        value: "Red, Blue, Green, Yallow, Pupple, Black"
+      }
+    ]
+  },
+  {
+    id: 1000006,
+    title: "Product title 6",
+    description: "Description for product 6",
+    variants: [
+      {
+        option: "Size",
+        value: "S, M, L, XL, XS"
+      },
+      {
+        options: "Color",
+        value: "Red, Blue, Green, Yallow, Pupple, Black"
+      }
+    ]
   }
 ]
