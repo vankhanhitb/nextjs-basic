@@ -1,0 +1,10 @@
+
+export default function LayoutAccount({
+  children
+}:Readonly<{children: React.ReactNode;}>) {
+  return (
+  <div>
+    {children}
+  </div>
+  );
+}
