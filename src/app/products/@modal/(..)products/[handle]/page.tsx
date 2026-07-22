@@ -11,7 +11,7 @@ export default async function page({ params }: ProductModal) {
     <div role="dialog">{
       (handle ? handle : <div>
         Product modal
-      </div>)    
+      </div>)  
     }</div>
   )
 }
